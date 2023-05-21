@@ -10,7 +10,7 @@ body {
 
 .bg {
   /* The image used */
-  background-image: url("https://www.treblezine.com/wp-content/uploads/2019/04/Turnstile-7-1200x800.jpg.webp");
+
 
   /* Full height */
   height: 100%;
@@ -29,44 +29,4 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-.reviewWrapper {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.object {}
-
-@keyframes MoveUpDown {
-
-  0%,
-  100% {
-    bottom: 0;
-  }
-
-  50% {
-    bottom: 100px;
-  }
-}
-
-.review {
-  animation: MoveUpDown 10s linear infinite;
-  position: relative;
-  left: 0;
-  bottom: 0;
-  text-decoration: none;
-  font-size: 100%;
-  display: inline-flex;
-  background-color: #2572a5;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  /* the magic */
-  max-width: 700px;
-  max-height: 700px;
-  min-width: 50px;
-  min-height: 50px;
-  margin: 10px;
-  overflow: hidden;
 }

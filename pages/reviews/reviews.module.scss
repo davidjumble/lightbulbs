@@ -1,0 +1,27 @@
+.container {
+  overflow: hidden;
+  width: 700px;
+}
+
+.slidingBackground {
+  animation: slide 60s linear infinite;
+}
+
+.reviewWrapper {
+  position: absolute;
+  top: 0px;
+  padding: 50px 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    //px is the image size
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
